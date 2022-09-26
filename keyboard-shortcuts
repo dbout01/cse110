@@ -1,0 +1,6 @@
+ctrl + / = comment or uncomment
+
+tab = indent
+shift + tab = un-indent
+ctrl + z = undo
+ctrl + y = redo

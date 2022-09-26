@@ -1,0 +1,7 @@
+name = input('What is your favourite color? Please type it.')
+print('Wow,' + name + '!')
+print('Youre favourite color is ' + name + '!!'  ' What a great color')
+()
+()
+name1 = input('What is your favourite animal? ')
+print('Nice, ' + name1 +  ' are pretty cute.')
