@@ -10,4 +10,6 @@ ctrl + y = redo
 int = whole #
 float = adds decimal
 str = string
-: .2f = round a set # of decimals (rounds up or down)
+: .2f or .2g = round a set # of decimals (rounds up or down)
+
+\ = new line
