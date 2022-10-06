@@ -23,10 +23,10 @@ print()
 print()
 
 # Find the cross sectional area of a bowling ball
-(math.pi*r^2)
-skydiver: 1.0 horizontal
+# (math.pi*r^2)
+# skydiver: 1.0 horizontal
 
-v_terminal = (math.sqrt(mass * gravity) / c )
+# v_terminal = (math.sqrt(mass * gravity) / c )
 
 
 # stretch challenge with classmates######################
