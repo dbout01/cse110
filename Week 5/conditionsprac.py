@@ -39,6 +39,7 @@ while True:
         continue
     if 'yes' in ans.lower():
         print('Welcome! you may enter.')
+        break
     if 'no' in ans.lower():
         print('YOU SHALL NOT ENTER.')
         break
