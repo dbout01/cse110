@@ -4,7 +4,7 @@ tab = indent
 shift + tab = un-indent
 ctrl + z = undo
 ctrl + y = redo
-
+alt + z = wraps text
 
 
 int = whole #
