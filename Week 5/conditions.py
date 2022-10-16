@@ -43,3 +43,19 @@ while True:
     if 'no' in ans.lower():
         print('YOU SHALL NOT ENTER.')
         break
+
+
+
+# ans = input('Are you 18 years or older? ')
+
+# if 'yes' in ans and len(ans.strip()) <= 3:
+#     print('You may enter')
+# else:
+#     print('Go away')
+
+
+# a = -3
+
+# if False:
+#     -> # ...
+# ->
