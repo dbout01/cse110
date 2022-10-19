@@ -65,7 +65,7 @@ else:
 #     ans =
 #     if ans ==
 #         ans =
-#         if ans ==
+#     if ans ==
 #         else:
 #
 # elif statement - flashlight:
@@ -74,7 +74,7 @@ else:
 #     ans =
 #     if ans ==
 #         ans =
-#         if ans ==
+#     if ans ==
 #         else:
 #
 #
