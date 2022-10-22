@@ -1,3 +1,5 @@
+#use this weeks materials as reference
+
 rider_1_age = input('What is the age of the first rider?: ')
 rider_1_height = input('What is the height of the first rider (in inches)?: ')
 
