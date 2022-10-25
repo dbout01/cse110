@@ -26,26 +26,22 @@ while True:
         print('You guessed my number!')
         break
     guesses -= 1
-    print('Please try again. You have {guesses} left.')
+    print(f'Please try again. You have {guesses} guesses left.')
 
+#option 2
 
-#           OR
+    if guess == number:
+        print('You guessed my number!')
+        break
+    print('please try aGAIN')
 
+#option 3
 
-    # if guess == number:
-    #     print('You guessed my number!')
-    #     break
-    # print('please try aGAIN')
-
-
-    # #     OR
-
-
-    # #   if guess != number
-    # #     print('Please guess again')
-    # #     continue
-    # #   print('You guessed my number!')
-    # #   break
+    if guess != number:
+        print('Please guess again')
+        continue
+    print('You guessed my number!')
+    break
 
 
 
