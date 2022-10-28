@@ -12,7 +12,7 @@ candy_yes_no = ''
 print('Let\'s play a game')
 
 while number != guess:
-    guess = int(input('Guess tha number: '))
+    guess = int(input('Guess the number. You have four guesses: '))
 
     if guesses == 0:
         print('GAME OVER')
