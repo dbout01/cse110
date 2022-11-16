@@ -21,7 +21,7 @@ add to list
     words.append('cake')
 
 remove the first element
-    first = words.pop('pizza') #you can remove by word, index #, position, etc.
+    first = words.pop('pizza') you can remove by word, index #, position, etc.
 
 remove the last element
     last = words.pop('')

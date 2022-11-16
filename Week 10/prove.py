@@ -1,5 +1,7 @@
 shopping_list = []
 
+prices = []
+
 number = ''
 
 while number != '5':
@@ -15,21 +17,29 @@ while number != '5':
         """)
 
         selection = input("Please enter an action: ")
-
+    #ADD
         if selection == "1":
             item = input("What item would you like to add?: ")
             shopping_list.append(item)
-            print(item + " has been added to the cart.")    
+            print(item + " has been added to the cart.")
+            price = float(input(f'What is the price of {item}?: '))
+            prices.append(price)
 
-        elif selection == "2":
-            print()
-            print("The contents of the shopping cart are: ")
-            for i in shopping_list:
-                print(i)
+    #REMOVE
+        elif selection == "3":
+            kill = int(input('Which item would you like to remove?: '))
 
-        elif selection == "5":
-            print('Thank you. Goodbye.')
-            break
-        
-        else:
-            print("Invalid selection.")
+            try:
+                choice = int(input('Type the number you would like: '))
+            except:
+                print('please enter only a number')
+            continue
+
+
+
+    #TOTAL  
+        elif selection == '4':
+            total = 0
+            for item_price in prices:
+                total = item_price + total
+                print(f'The total price of the items in the shopping cart is {total:.2f}')
