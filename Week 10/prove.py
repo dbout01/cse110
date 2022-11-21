@@ -1,6 +1,7 @@
 print()
 print('Welcome to the Shopping Cart Program!')
 menu = ['Add item', 'View Cart', 'Remove an Item', 'View Total', 'Quit']
+qty = [1, 1, 1, 1, 1]
 
 cart = []
 
@@ -26,11 +27,11 @@ while True:
         price = float(input(f'What is the price of {new_item}?: '))
         prices.append(price)
         print()
-        print(f'{new_item} added!')
+        print(f'{new_item}, ${price}, added!')
         print()
         pass
 
-#CONTENTS
+#VIEW CART
     elif choice == 2:
         print()
         print("The contents of the shopping cart are: ")
@@ -38,23 +39,22 @@ while True:
             print(i)
         pass
 
-#REMOVE
+#REMOVE AN ITEM
     elif choice == 3:
-        old_item = input('What is the name of the item to remove?: ')
+        old_item = int(input('What is the name of the item to remove?: '))
         try:
             choice = int(input('Type the number you would like: '))
+            
         except:
             print('please enter only a number')
         continue
-    #add for loop
-    #add number question
 
-#TOTAL
+#VIEW TOTAL
     elif choice == 4:
         total = 0
         for item_price in prices:
             total = item_price + total
-            print(f'The total price of the items in the shopping cart is {total:.2f}')
+            print(f'The total price of the items in the shopping cart is ${total:.2f}')
         pass
 
 #QUIT
