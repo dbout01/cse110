@@ -1,7 +1,11 @@
-with open('C:\\Users\dbutt\OneDrive\Desktop\cse110\week-11\books.txt') as f:
+import pathlib
+cwd = pathlib.Path(__file__).parent.resolve()
+bs = f'{cwd}/books.txt'
 
-    for line in f:
-        parts = line.strip().split(' ')
-        name = parts[0]
-        title = parts[2]
-        print(f'Name: {name}, Title: {title}')
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+with open(bs) as book_file:
+
+    for line in book_file:
+        book = line.strip()
+        print(book)

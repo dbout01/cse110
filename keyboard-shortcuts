@@ -1,15 +1,17 @@
-ctrl + / = comment or uncomment
-
+KEYBOARD SHORTCUTS
 tab = indent
 shift + tab = un-indent
 ctrl + z = undo
 ctrl + y = redo
 alt + z = wraps text
+ctrl + / = comment or uncomment
+alt + up/down = shuffles lines
+double click word & enter key = will close the word in symbol
 
-
+FILE STUFF
 int = whole #
 float = adds decimal
 str = string
 : .2f or .2g = round a set # of decimals (rounds up or down)
-
 \ = new line
+pwd = find path of file
