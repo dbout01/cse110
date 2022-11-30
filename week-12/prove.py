@@ -4,7 +4,8 @@ cwd = pathlib.Path(__file__).parent.resolve()
 le = f'{cwd}/le.csv'
 
 
-max_life = 0
+max_life = 999
+min_life = 999
 
 
 #Opens file and establishes layout
@@ -22,13 +23,18 @@ with open(le) as data_set:
 
         chosen_year = ""
 
-        if life_expectancy > max_life:
+        if life_expectancy > max_life: #finds max_Life
             max_life = life_expectancy
             max_country = country
-        #IF --- FIND MIN_lIFE
-                
+        if life_expectancy > min_life: #finds min_life
+            min_life = life_expectancy
+            min_country = country
+
+          
         #SUM & COUNT VARIABLES NEEDED TO FIND AVERAGE FOR YR OF INTEREST - SHOPPING CART & WORDLE GUIDE
             #FILTER IT BY YEAR BEFORE FINDING AVERAGE (NESTED IF STATEMENTS)
+
+
 
 #Tells user to enter year
 year_lookup = input("Enter the year of interest: ")
