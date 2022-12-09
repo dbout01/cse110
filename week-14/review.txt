@@ -1,0 +1,17 @@
+-- ACCESSING ITEMS VIA INDEX --
+
+animals = ['dog', 'cat', 'hamster']
+prices = [5, 10, 15]
+
+for i in range(len(animals)):                -- using range(len)
+    print(animals[i], prices [i])
+
+for i, animal in enumerate(animals):         -- using enumerate (datatype, list w/ index attached)
+    print(i+1, animal) - i+1 makes for better readability
+
+
+
+-- OPENING FILE --
+
+with open ('C:/Users/dbutt/OneDrive/Desktop/cse110/week-12/checkpoint.py') as file: -- always use forward or double back-slash in path
+    print(file)

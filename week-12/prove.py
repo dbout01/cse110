@@ -4,10 +4,6 @@ cwd = pathlib.Path(__file__).parent.resolve()
 le = f'{cwd}/le.csv'
 
 
-max_life = 999
-min_life = 999
-
-
 #Opens file and establishes layout
 with open(le) as data_set:
     next(data_set)
@@ -18,6 +14,13 @@ with open(le) as data_set:
         code = row[1].strip()
         year = row[2].strip()
         life_expectancy = float(row[3])
+
+        max_life = 100
+        min_life = 0
+        max_country = ""
+        max_year = max(year)
+        min_country = min(country)
+        min_year = min(year)
 
         avg_life = (life_expectancy) / (life_expectancy) 
 
@@ -31,7 +34,7 @@ with open(le) as data_set:
             min_country = country
 
           
-        #SUM & COUNT VARIABLES NEEDED TO FIND AVERAGE FOR YR OF INTEREST - SHOPPING CART & WORDLE GUIDE
+        #SUM & COUNT VARIABLES NEEDED TO FIND AVERAGE FOR YR OF INTEREST - SEE SHOPPING CART & WORDLE GUIDE
             #FILTER IT BY YEAR BEFORE FINDING AVERAGE (NESTED IF STATEMENTS)
 
 

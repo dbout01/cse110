@@ -7,6 +7,7 @@ alt + z = wraps text
 ctrl + / = comment or uncomment
 alt + up/down = shuffles lines
 double click word & enter key = will close the word in symbol
+change multiple characters into another characte = highlight characters, right click, change all occurances
 
 FILE STUFF
 int = whole #
